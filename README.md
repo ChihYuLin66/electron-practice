@@ -28,3 +28,6 @@ npm run build
 ```bash
 npm run pack
 ```
+
+### electron-packager vs electron-builder ?
+[Look This](https://stackoverflow.com/questions/37113815/electron-builder-vs-electron-packager)
