@@ -1,22 +1,26 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
+  "name": "chihyulin66-electron-practice",
+  "version": "0.0.1",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . chihyulin66-electron-packager",
+    "pack": "electron-builder build"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/ChihYuLin66/electron-practice.git",
   "keywords": [
     "Electron",
     "quick",
     "start",
-    "tutorial",
+    "practice",
     "demo"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^22.0.0"
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0",
+    "electron-packager": "^17.1.1"
   }
 }
